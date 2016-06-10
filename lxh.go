@@ -22,7 +22,7 @@ type Joke struct {
 	Type    int
 }
 
-func (u *User) TableName() string {
+func (u *Joke) TableName() string {
 	return "joke"
 }
 
