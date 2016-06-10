@@ -22,6 +22,10 @@ type Joke struct {
 	Type    int
 }
 
+func (u *User) TableName() string {
+	return "joke"
+}
+
 func init() {
 	orm.RegisterDriver("mysql", orm.DRMySQL)
 	orm.RegisterDataBase("default", "mysql", "root:@/test?charset=utf8")
