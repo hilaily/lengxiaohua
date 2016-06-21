@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/Laily123/lengxiaohua.svg?branch=master)](https://travis-ci.org/Laily123/lengxiaohua)
 ## 抓取“我们爱讲冷笑话”的笑话数据
+[![Build Status](https://travis-ci.org/Laily123/lengxiaohua.svg?branch=master)](https://travis-ci.org/Laily123/lengxiaohua)
 ### 数据库结构
     content,
     num,//在lengxiaohua.com网站的id
